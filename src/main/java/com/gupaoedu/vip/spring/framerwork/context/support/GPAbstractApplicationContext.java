@@ -1,5 +1,7 @@
 package com.gupaoedu.vip.spring.framerwork.context.support;
 
+import com.gupaoedu.vip.spring.framerwork.beans.config.GPBeanDefinition;
+
 /**
  * @ClassName GPAbstractApplicationContext
  * @Description IOC容器的顶层设计
@@ -10,5 +12,7 @@ package com.gupaoedu.vip.spring.framerwork.context.support;
 public abstract class GPAbstractApplicationContext {
 
     //这个类不能直接new，提供给子类去重写这个方法，这是规范
-    protected void refresh(){}
+    protected void refresh(){
+
+    }
 }
